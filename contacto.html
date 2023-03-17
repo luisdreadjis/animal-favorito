@@ -1,13 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Graphic Institute. La escuela de diseño del siglo XXI</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-formulario.css">
+
+    <style>
+        .campoFormulario{
+            margin: 15px;
+    
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- inicio modal -->
+    <!-- <div class="fondoModal">
+        <div class="contenedorModal">
+            <div class="ventanaModal">
+                <span id="bot-cerrar-modal" class="icon-cross"></span>
+                <h2 class="modal">TUS DATOS ESTÁN A SALVO EN GRAPHIC DESIGNER EN CUMPLIMIENTO DEL RGPD (Reglamento General de Protección de Datos)
+                </h2>
+                <p>El artículo 13 del Reglamento General de Protección de Datos, publicado en mayo de 2016 y aplicable a partir del 25 de mayo de 2018, determina la información que deberá facilitarse cuando los datos personales se obtengan del interesado.</p>
+
+                <p>En base a ello se detalla en este apartado la información necesaria para que si tienes una relación contractual con nosotros o necesitas solicitar información de nuestros productos conozcas aspectos tales como la identidad del responsable que trata tus datos, la finalidad, los posibles destinatarios o los derechos que te asisten. 
+                </p>
+
+                <p>Los datos facilitados se utilizaran exclusivamente para las finalidades propias para las que el usuario haya rellenado el formulario concreto: con el fin de gestionar el envío de información que nos solicitan y proporcionarles ofertas de nuestros programas formativos de su interés. Ofrecerle programas de estudios de acuerdo con sus intereses y mejorar su experiencia de usuario con nosotros, elaboraremos un perfil de potenciales alumnos, en base a la información facilitada. </p>
+
+            </div>
+        </div>
+    </div> -->
+    <!-- fin modal -->
 
     <div id="barra"></div>
     <header>
@@ -17,7 +47,7 @@
 
             <div class="header-superior navegacion filaFlex">
                 
-               
+                
                 <nav class="anchoMaximo navegacionPrincipal">
                     <ul class="flex">
                         <li><a href="index.html">HOME</a></li>
@@ -36,19 +66,6 @@
 				 
             </div>
             
-
-            <div>
-                <ul class="flex2 anchoMaximo">
-                    <li><a href="#"><img src="imagenes/facebook.png" alt=""></a></li>
-
-                    <li><a href="#"><img src="imagenes/twitter.png" alt=""></a></li>
-
-                    <li><a href="#"><img src="imagenes/youtube.png" alt=""></a></li>
-                </ul>
-            </div>
-
-            
-        </div>
        
     </header>
 
@@ -56,71 +73,56 @@
 
         <div class="flex4">
 
-            <h1>MUCHO MÁS QUE UN GRAN CENTRO DE FORMACIÓN</h1> 
+            <h2>CONTACTO</h2> 
             <div class="linea"></div>
-            <p>Graphic Institute es un centro de formación de <strong>referencia en el mundo del diseño y arte</strong> . Con 2 décadas de experiencia, un <strong>91,45% de empleabilidad</strong>  y con las ventajas únicas de Graphic Institute. Empieza aquí tu carrera como profesional haciendo alguno de nuestros Cursos o Máster.</p>
+            <p class="consultas">Nos encantaría responder a tus dudas sobre el elefante, conocer tus anécdotas y que nos sugierieses nuvas publicaciones que pudieran ser de tu interés.</p>
         
+        </div>
+
+        <div class="flex4">
+            <h3>Formulario de contacto</h1>
         </div>
         
 
-        <div class="padreFlex1">
-            <div class="foto-aulas"><!-- background --></div>
-            <div class="descripciones">
-                <h2>Aulas 3.0</h2>
-                <h3>8 aulas informáticas + 2 aulas blancas</h3>
-                <p>Todas nuestras aulas disfrutan de equipamiento informático de última generación con Apple Mac Pro Quad-Core y pantallas interactivas para la explicación docente, que permiten exponer la información de forma participativa.</p>
-                <a class="boton" href="#">Más información</a>
-            </div>
-        </div>  
-        
-        <div class="padreFlex2">
-            <div class="descripciones">
-                <h2>Laboratorio de ideas</h2>
-                <h3>Reuniones 2 días a la semana</h3>
-                <p>Como alumno de Graphic Institute puedes formar parte de uno de nuestros laboratorios de ideas. En ellos se persigue desarrollar una idea novedosa y por qué no, si es posible comercializarla obteniendo un beneficio económico.</p>
-                <a class="boton" href="#">Más información</a>
-            </div>
-            <div class="foto-laboratorio"><!-- background --></div>
-        </div>
-
-        <div class="padreFlex3">
-             <div class="foto-practicas"><!-- background --></div>
-            <div class="descripciones">
-                <h2>Prácticas garantizadas</h2>
-                <h3>En empresas de reconocido prestigio</h3>
-                <p>Todos nuestros alumnos pueden acceder a las prácticas en empresas. Tenemos acuerdos con las muchas empresas del sector publicitario, audiovisual, diseño, para completar tu formación.</p>
-                <a class="boton" href="#">Más información</a>
-            </div>
-        </div>
-
-        <div class="padreFlex4">
-            <div class="descripciones">
-                <h2>Metodología</h2>
-                <h3>Nos avala el éxito de miles de alumnos</h3>
-                <p>Nuestra metodología está contrastada y avalada por los resultados obtenidos con miles de alumnos, desde 2002. Nuestro objetivo es capacitar al alumno para trabajar con nuevas tecnologías.</p>
-                <a class="boton" href="#">Más información</a>
-            </div>
-            <div class="foto-metodo"><!-- background --></div>
-        </div>
-            
-           
+        <form novalidate action="procesarFormulario.php" id="form-contacto">
             
         
+        <div class="campoFormulario">
+            <label for="nombre">NOMBRE </label>
+            <input type="text" required id="nombre" name="datos-nom" placeholder="Tu nombre" >
+            <span class="mensaje-error" id="msj-nombre">Escribe tu nombre...</span>
+        </div>
+
+       
+
+    <div class="campoFormulario">
+            <label for="com">COMPARTE TU INFORMACIÓN CON NOSOTROS</label>
+            <textarea name="datos-com" id="com" cols="30" rows="10" placeholder="Comparte tu información"></textarea>
+    </div>
+
+    <div class="campoFormulario">
+        <input type="checkbox" id="clausulas" name="base-datos-clausulas" required>
+        <label for="clausulas">Acepto las claúsulas de protección de datos </label><a href="#" id="bot-abrir-modal">Leer claúsulas</a>
+
+        <span class="mensaje-error" id="msj-clausulas">Acepta las claúsulas legales...</span>
+        </div>
+
+        <div class="campoFormulario">
+            <input type="submit" value="Enviar">
+        </div>
+        
+        </form>
     </main>
+
     <footer>
-        <div>
-            <ul class="filaFlex2">
-                <li><a href="formulario-graphic.html">Contacto</a></li>
-                <li><a href="#">Imágenes del centro</a></li>
-                <li><a href="#">Premios</a></li>
-                <li><a href="#">Bolsa de empleo</a></li>
-                <li><a href="#">Datos legales</a></li>
-            </ul>
-        </div>
+
 
         <div class="legal">
-            <p>Grafic Designer. Todos los derechos reservados.</p>
+            <p>Luis dPS. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    
+  
+</body>
 </html>
