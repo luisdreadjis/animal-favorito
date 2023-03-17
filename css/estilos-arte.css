@@ -81,7 +81,7 @@ a:hover{
 /* header */
 
 .fondo-header{
-    background: url('../imagenes/forman-grandes-sociedades-matriarcales.jpg')  50% center/cover, #454545;
+    background: url('../imagenes/forman-grandes-sociedades-matriarcales.jpg')  center center/cover, #454545;
     /* 50% es igual que center */
     height: 42em;
     border-bottom: solid 6px #3f87f6;
@@ -181,30 +181,30 @@ h4{
 /* fotos */
 .foto-aulas{
     min-height: 300px;
-    flex-basis: 50%;
+    flex-basis: 30%;
     
-    background: url('../imagenes/bonds-of-love.jpg') center center/cover;
+    background: url('../imagenes/ganesh.jpg') top center/cover;
 }
 
 .foto-laboratorio{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/dos-.jpg')  0 center/cover;
+    background: url('../imagenes/El_jardín_de_las_Delicias\,_de_El_Bosco.jpg')  left center/cover;
 }
 
 .foto-practicas{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/elefantes.jpg')  0 center/cover;
+    background: url('../imagenes/elefante-rembrandt.png')  0 center/cover;
 }
 
 .foto-metodo{
     min-height: 300px;
     flex-basis: 50%;
     
-    background: url('../imagenes/amigos-de-la-infancia.jpg')  center center/cover;
+    background: url('../imagenes/Henri_Rousseau_005.jpg')  center center/cover;
 }
 
 /* textos main */
