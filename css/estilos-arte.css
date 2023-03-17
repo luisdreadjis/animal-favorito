@@ -190,14 +190,14 @@ h4{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/El_jardín_de_las_Delicias\,_de_El_Bosco.jpg')  left center/cover;
+    background: url('../imagenes/elefante-el-bosco.jpg')  right center/cover;
 }
 
 .foto-practicas{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/elefante-rembrandt.png')  0 center/cover;
+    background: url('../imagenes/elefante-rembrandt.png')  center right/cover;
 }
 
 .foto-metodo{
