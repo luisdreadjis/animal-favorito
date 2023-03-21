@@ -1,2 +1,3 @@
 User-agent: *
+Allow: /
 Sitemap:luisdreadjis.com/animal-favorito/sitemap.xml 
