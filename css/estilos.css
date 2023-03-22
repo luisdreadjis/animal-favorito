@@ -190,14 +190,14 @@ h4{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/dos-.jpg')  0 center/cover;
+    background: url('../imagenes/dos-.jpg')  center center/cover;
 }
 
 .foto-practicas{
     min-height: 300px;
     flex-basis: 50%;
 
-    background: url('../imagenes/elefantes.jpg')  0 center/cover;
+    background: url('../imagenes/elefantes.jpg')  right center/cover;
 }
 
 .foto-metodo{

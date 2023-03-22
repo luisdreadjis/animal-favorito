@@ -154,11 +154,12 @@
 	}
     .foto-practicas{
         flex-basis: 100%;
+		min-height: 482px;
       }
 
 	  .foto-laboratorio{
         flex-basis: 100%;
-		background: url(../imagenes/dos-.jpg) center bottom/cover;
+		
       }
 
 	  .foto-metodo{
@@ -172,12 +173,8 @@
 	 }
 
 	 .foto-aulas{
-		background: url(../imagenes/bonds-of-love.jpg) bottom center/cover;
+		min-height: 852px;
 	 }
 
-	 .foto-practicas {
-		min-height: 480px;
-		flex-basis: 50%;
-		background: url('../imagenes/elefantes.jpg')  top center/cover;
-	}
+	
 }
