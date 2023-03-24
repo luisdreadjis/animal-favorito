@@ -90,28 +90,28 @@
 
         <form novalidate action="procesarFormulario.php" id="form-contacto">
             
-        
+        <p><small>los cambios con asteriscos son obligotarios</small></p>
         <div class="campoFormulario">
             <label for="nombre">NOMBRE </label>
-            <input type="text" required id="nombre" name="datos-nom" placeholder="Tu nombre" >
-            <span class="mensaje-error" id="msj-nombre">Escribe tu nombre...</span>
+            <input type="text" required id="nombre" name="datos-nom" placeholder="Tu nombre" required>
+            <span class="mensaje-error" id="msj-nombre">*Escribe tu nombre...</span>
         </div>
 
        
 
     <div class="campoFormulario">
-            <label for="com">COMPARTE TU INFORMACIÓN CON NOSOTROS</label>
-            <textarea name="datos-com" id="com" cols="30" rows="10" placeholder="Comparte tu información"></textarea>
+            <label for="com">*COMPARTE TU INFORMACIÓN CON NOSOTROS</label>
+            <textarea name="datos-com" id="com" cols="30" rows="10" placeholder="Comparte tu información" required></textarea>
     </div>
 
     <div class="CampoFormulario margen-izquierdo">
-        <label for="archivo-user">MANDA TUS IMAGENES:</label><!-- <br> -->
+        <label for="archivo-user">*MANDA TUS IMAGENES:</label><!-- <br> -->
         <input type="file" name="archivo-usuario" id="archivo-user" multiple accept=".jpg">
     </div>
 
     <div class="campoFormulario">
         <input type="checkbox" id="clausulas" name="base-datos-clausulas" required>
-        <label for="clausulas">Acepto las claúsulas de protección de datos </label><a href="#" id="bot-abrir-modal">Leer claúsulas</a>
+        <label for="clausulas">*Acepto las claúsulas de protección de datos </label><a href="#" id="bot-abrir-modal">Leer claúsulas</a>
 
         <span class="mensaje-error" id="msj-clausulas">Acepta las claúsulas legales...</span>
         </div>
