@@ -508,4 +508,8 @@ h2.modal{
     font-weight: bold;
     font-size: 20px;
 }
+/* margen izquierdo archivo */
+.margen-izquierdo{
+    margin-left: 20px;
+}
  
