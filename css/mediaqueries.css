@@ -127,6 +127,77 @@
 
 @media screen and (max-width: 850px){
 
+	.filaFlex{
+		display: block;  /* quitamos flex */
+		
+	}
+
+
+	.navegacionPrincipal{
+		display: none;
+		margin: 1em 0; 
+	}
+
+	
+
+	 
+	.navegacionPrincipal{
+	   	   	margin: 0;
+	   	   	text-align: left;
+			padding-bottom: 20px;
+   	   }
+
+	 
+	.fondo-header .flex{
+		display: block;
+	}	
+
+	.logo{
+		padding-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.navegacionPrincipal li{
+		border-right: none;
+	}
+
+	.navegacionPrincipal li {
+		display: block; 
+		padding: 0.5em 0;
+		
+	} 
+
+ 	   .navegacionPrincipal a{ 
+	   		display: block; /*me interesa que los enlaces se comporten en bloque para
+	   		que pueda hacer clic en todo el ancho del lugar que ocupan*/
+			font-size: 18px;
+ 	   }
+
+	   .navegacionPrincipal a:hover{
+		color: blue;
+	   }
+
+		.navegacionPrincipal.visible{
+			display: block;
+			background-color:  #EE790F;
+			position: absolute;
+    		width: 93%;
+    		text-align: center;
+			font-size: 28px;
+			margin: 7px;
+		}
+
+		
+ 		
+ 	  .iconoMenu {
+ 	  	    display: block; /*hacemos aparecer el li con el boton del menú */
+ 		    position: absolute;
+ 		    right: 35px;
+            top: 11px;
+            width: 40px;
+
+ 	  }
+
 	/* header */
 	.flex2 {
 		display: flex;
