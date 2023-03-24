@@ -1,0 +1,72 @@
+
+/* Imagenes experiencias */
+
+.foto-expeEspana{
+    min-height: 300px;
+    flex-basis: 50%;
+    
+    background: url('../imagenes/BIOPARC-Valencia-2019.jpg') center center/cover;
+}
+
+.foto-mundo{
+    min-height: 300px;
+    flex-basis: 50%;
+    
+    background: url('../imagenes/india-elefante-pintado.jpg') center center/cover;
+    /* background: linear-gradient(rgba(47, 122, 106, 0.553), transparent),
+             	 url('../imagenes/india-elefante-pintado.jpg') center center/cover,
+	        	rgb(47, 71, 122); */
+}
+
+/* Imagenes experiencia 1 */
+.foto-anibal{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../imagenes/anibal-elefantes.jpg')  0 center/cover;  
+}
+
+.foto-cabarcenos{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../imagenes/cuadernoElefantes.jpg')  center center/cover;  
+}
+
+.foto-cria{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../imagenes/elefante-zoo-cria.jpg')  center center/cover;  
+}
+
+/* Imagenes experiencia 2 */
+.foto-must{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../img/los_elefantes_machos_asiaticos_sufren_el_must_20931_8_orig.jpg')  center center/cover;  
+}
+
+.foto-circos{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../img/elefantes-circo.jpg')  center center/cover;  
+}
+
+.foto-colmillos{
+    min-height: 300px;
+    flex-basis: 50%;
+
+   
+    background: url('../img/curiosidades_de_los_elefantes_20931_orig.jpg')  center center/cover;
+   
+}
+
+.foto-convivencia{
+    min-height: 300px;
+    flex-basis: 50%;
+
+    background: url('../img/convivencia-humanos-elefantes.jpg')  center center/cover;  
+}
